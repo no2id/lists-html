@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<link href="http://www.no2id.net/style_new2.css" rel="stylesheet" type="text/css">
+<title>No2ID Lists</title>
+</head>
+
+<body>
+<h1>No2ID Lists</h1>
+<ul>
+  <li><a href="#info">General Information</a></li>
+  <li><a href="#rules">List Rules</a></li>
+  <li><a href="#subunsub">Subscribing and Unsubscribing</a></li>
+  <li><a href="#subchange">Changing your list subscription</a></li>
+  <li><a href="#posting">Posting to the list</a></li>
+  <li><a href="#rejected">I sent a mail to the list, but it was rejected</a></li>
+  <li><a href="#gmail">I use Gmail/Googlemail, but don't see my list posts</a></li>
+  <li><a href="#antispam">Spam-trap problems</a></li>
+  <li><a href="#autoresp">Auto-Responders, "Out of Office" autoreplies &amp;c</a></li>
+  <li><a href="#listoflists">The Lists</a></li>
+  <li><a href="#help">Help!</a></li>
+</ul>
+
+<h2><a name="info"></a>General Information</h2>
+<p>No2ID run a variety of lists, for a variety of purposes: for more information on a 
+   list, see the 
+   <a href="http://en.wikipedia.org/wiki/Electronic_mailing_list">obligatory Wikipedia 
+   page</a>.</p>
+
+<p>Unless indictated (usually with the word "<em>announce</em>" appended to the list-name), 
+   all of our lists are discussion (i.e., any list-member may post), with private archives, 
+   and where mail from non-members are rejected outright.</p>
+
+<h2><a name="rules"></a>General List Rules</h2>
+<p>For the benefit of all members of the list, the following rules are imposed:</p>
+
+<ul>
+  <li><a name="no-spam"></a>Do not send spam: keep things on topic</li>
+  <li><a name="wrap"></a>Wrap your lines at 80 characters or less for 
+      ordinary discussion.</li>
+  <li><a name="vacation"></a>Do not send automated out-of-office
+      or vacation messages.</li>
+  <li><a name="unsub-reqs"></a>Do not send subscription or 
+      unsubscription requests to the list address itself: 
+      details are in the footer of each list-message; 
+      there's a 'List-Unsubscribe' header too.</li>
+  <li><a name="plain-text"></a>Never send your messages in 
+      HTML: use 
+      <a href="http://www.efn.no/html-bad.html">plain text</a></li>
+  <li><a name="no-top-posting"></a>The majority of users will 
+      probably prefer 
+      <a href="http://www.lemis.com/email/communicating.html">bottom/
+      in-line posting</a></li>
+  <li><a name="attachments"></a>Avoid sending large attachments: messages
+      with large attachments are likely to get ditched: point people to 
+      a URI where the files are</li>
+  <li><a name="keep-offlist"></a>Do not quote messages that were sent to 
+      you by other people in private mail, unless agreed beforehand.</li>
+</ul>
+
+<h2><a name="subunsub"></a>Subscribing and Unsubscribing</h2>
+<p>To subscribe to a list, you can do this via the web-interface, or via email. 
+   Details of unsubscribing are in each message: at the bottom, and in the 
+   <a href="http://www.spamcop.net/fom-serve/cache/19.html">headers</a>.</p>
+
+<h2><a name="subchange"></a>Changing your list subscription</h2>
+<p>At the moment, there's not an easy way to change your subscribed email address.</p>
+<p>There is, however, the annoyance of unsubscribing the old address, and resubscribing
+   with the new address: if you mail the listmasters, this is what they have to do for 
+   you. </p>
+<p>As time permits, we'll write a form/script that makes this a wee bit easier:
+   if you'd like to write one for us (prefereably in Perl or Python) please do get 
+   in touch with listmaster-at-no2id-dot-net</p>
+
+<h2><a name="posting"></a>Posting to the list(s)</h2>
+<p>Once you're a list-member, and set your mail-client to send plain-text mails 
+   (to the list if nothing else), just send an email as you ordinarily would: text
+   in the body, a meaningful subject line, &amp;c. Instead of sending it to
+   a person, you send it to the list address, e.g., 
+   <code>no2id.blahville@lists.no2id.net</code> (the actual address will depend
+   on the list, and is contained in the automatically generated mail you 
+   received when you subscribed to the list) &#8212; you can add the list
+   address to your email address book if you find that easier, too (but please do
+   keep your anti-virus software up-to date).</p>
+<p><a name="posting-toomany"></a>Sending your mail to other addresses, 
+   in addition to the list's, will trigger the list-software to 
+   automatically place the message on hold &#8212; where it 
+   will be reviewed by the list-admins as time permits (they do this in their
+   spare time, along with most of the other tech-stuff for the campaign), unless
+   it's been a busy week and the message queued has since been automatically 
+   removed from the queue.</p>
+<p><a name="posting-implicit"></a>Also, you'll find sending your 
+   message to the list using To: or Cc: should get through a 
+   <strong>lot</strong> more easily than if it's bcc'd.</p>
+
+<h2><a name="rejected"></a>I sent a mail to the list, but it was rejected</h2>
+<p>If you sent a mail to the list, and got a bounce back saying the message
+   was rejected, it's probably a case that the list doesn't think you're email
+   address is a member of the list.</p>
+
+<p><a name="envelope-to"></a>The easiest way of checking is to find 
+   the last mail sent to you by the list, and looking for the 
+   'envelope-to:' header (don't know how to? here's a 
+   <a href="http://www.spamcop.net/fom-serve/cache/19.html">link</a>, or do an 
+   internet search using the words "email" "header" "display" and whatever program you
+   use to read email with).</p>
+
+<p>Once you've worked that out, make sure your From: header 
+   includes your subscribed email addresss.</p>
+
+<p>Contacting the list-admins will probably include this advice, and 
+   if appropriate a comment along the lines of "you're sending from
+   x@example.org. That's not subscribed to the list. In order to post
+   you need to be a member of the list, and send from your subscribed 
+   address"</p>
+
+<h2><a name="gmail"></a>I use Gmail/Googlemail, but don't see my list posts</h2>
+<p>This is a "feature" (or, as we think of it, a bug) in Gmail, see 
+   <a href="http://mail.google.com/support/bin/answer.py?answer=6588">their words of wisdom</a> 
+   for more info.</p>
+
+<h2><a name="antispam"></a>Spam-trap Issues</h2>
+<p>Annoyingly, some list-messages may be marked as spam by 
+   aggressive spam-filters. You may find whitelisting 
+   <code>*@lists.no2id.net</code> does the job (our lists
+   are set-up to reject mail from people who aren't list-members), 
+   or if you want more control over that, add to your email
+   address-book: <code>listname-bounces@lists.no2id.net</code> and 
+   <code>listname@lists.no2id.net</code> where 'listname' is the 
+   name of the list, e.g., for the fictitious list
+   '<code>example@lists.no2id.net</code>', you'd use 
+   '<code>example-bounces@lists.no2id.net</code>' and 
+   '<code>example@lists.no2id.net</code>'</p>
+
+<h2><a name="autoresp"></a>Auto-Responders, "Out of Office" autoreplies &amp;c</h2>
+<p>Autoresponders that send to lists are a nuisance. Please refrain from using
+   broken mail-clients that will send an auto-response. Either to the list, 
+   to the sender, or the list administrative addresses.</p>
+<p><a name="disabled"></a>People who do not heed this request risk having
+    their subscriptions to the lists (a) disabled, and (b) moderated: in 
+    their first instances. Persistent offenders may administratively be removed
+    from the list, and banned from posting.
+<p><a name="goldmark"></a>Jeffrey Goldberg's written some 
+    <a href="http://goldmark.org/netrants/auto-resp/">notes/advice</a> 
+    on these matters.</p>
+
+<h2><a name="listoflists"></a>Where are these lists, then?</h2>
+<p>Ah yes, you want the listing! 
+   <a href="http://lists.no2id.net/mailman/listinfo">http://lists.no2id.net/mailman/listinfo</a>
+<br> Our older lists are currently hosted on 
+   <a href="http://www.no2id.net/mailman/listinfo">http://www.no2id.net/mailman/listinfo</a>
+<br>If you're looking for lists for the local-groups, 
+   <a href="http://www.no2id.net/localgroups">http://www.no2id.net/localgroups</a> 
+   may be a good starting point.
+</p>
+
+<h2><a name="help"></a>I need a human's help!</h2>
+<p>In each case, listname-owner@lists.no2id.net is the address 
+   to use, where listname is the list's name. Please note that 
+   we run several hundred lists, on a few machines, so it's 
+   crucial that you provide as much information as possible, 
+   particularly if you're contacting us over list 
+   (un-)subscriptions.</p>
+
+</body>
+</html>
